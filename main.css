@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main-container{
+    display: flex; flex-wrap: wrap; gap: 30px; padding: 12px
+}
+
+img.image:hover{
+
+}
+
+.main{
+    position: relative; 
+}
+
+.absolute-content{
+    display: flex;
+            align-items: baseline; position: absolute; top: 250px;
+            left: 10px; background-color: rgb(184, 175, 175);
+        }
+
+        div.absolute-content:hover{
+            font-size: 150%;
+        }
+.secondary-container{
+    display: flex; flex-direction: column
+}
+
+.offer{
+    color: red
+}
